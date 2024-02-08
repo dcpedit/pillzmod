@@ -1,0 +1,405 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 2250 5350 2    50   Input ~ 0
+col0
+Text GLabel 2250 5250 2    50   Input ~ 0
+col1
+Text GLabel 2250 5150 2    50   Input ~ 0
+col2
+Text GLabel 2250 4950 2    50   Input ~ 0
+col3
+Text GLabel 2250 4850 2    50   Input ~ 0
+col4
+Text GLabel 2250 4750 2    50   Input ~ 0
+col5
+Text GLabel 2250 5050 2    50   Input ~ 0
+row6
+Text GLabel 7600 2700 2    50   Input ~ 0
+row6
+Text GLabel 7400 1850 1    50   Input ~ 0
+col5
+Text GLabel 6500 1850 1    50   Input ~ 0
+col4
+Text GLabel 5600 1850 1    50   Input ~ 0
+col3
+Text GLabel 4700 1850 1    50   Input ~ 0
+col2
+Text GLabel 3800 1850 1    50   Input ~ 0
+col1
+Text GLabel 2900 1850 1    50   Input ~ 0
+col0
+Wire Wire Line
+	7400 2400 7400 1850
+Wire Wire Line
+	6500 2400 6500 1850
+Wire Wire Line
+	5600 2400 5600 1850
+Wire Wire Line
+	4700 2400 4700 1850
+Wire Wire Line
+	3800 2400 3800 1850
+Wire Wire Line
+	2900 2400 2900 1850
+Wire Wire Line
+	6800 2700 7600 2700
+Connection ~ 6800 2700
+Wire Wire Line
+	5900 2700 6800 2700
+Connection ~ 5900 2700
+Wire Wire Line
+	5000 2700 5900 2700
+Connection ~ 5000 2700
+Wire Wire Line
+	4100 2700 5000 2700
+Connection ~ 4100 2700
+$Comp
+L Device:D D6
+U 1 1 5DD81BBF
+P 6800 2550
+F 0 "D6" V 6846 2471 50  0000 R CNN
+F 1 "D" V 6755 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6800 2550 50  0001 C CNN
+F 3 "~" H 6800 2550 50  0001 C CNN
+	1    6800 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5DD81BB5
+P 7100 2400
+F 0 "K6" H 7100 2633 60  0000 C CNN
+F 1 "KEYSW" H 7100 2300 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 7100 2400 60  0001 C CNN
+F 3 "" H 7100 2400 60  0000 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5DD81BAB
+P 5900 2550
+F 0 "D5" V 5946 2471 50  0000 R CNN
+F 1 "D" V 5855 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5DD81BA1
+P 6200 2400
+F 0 "K5" H 6200 2633 60  0000 C CNN
+F 1 "KEYSW" H 6200 2300 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 6200 2400 60  0001 C CNN
+F 3 "" H 6200 2400 60  0000 C CNN
+	1    6200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5DD80529
+P 5000 2550
+F 0 "D4" V 5046 2471 50  0000 R CNN
+F 1 "D" V 4955 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5000 2550 50  0001 C CNN
+F 3 "~" H 5000 2550 50  0001 C CNN
+	1    5000 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5DD8051F
+P 5300 2400
+F 0 "K4" H 5300 2633 60  0000 C CNN
+F 1 "KEYSW" H 5300 2300 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 5300 2400 60  0001 C CNN
+F 3 "" H 5300 2400 60  0000 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5DD80515
+P 4100 2550
+F 0 "D3" V 4146 2471 50  0000 R CNN
+F 1 "D" V 4055 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 2550 50  0001 C CNN
+F 3 "~" H 4100 2550 50  0001 C CNN
+	1    4100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5DD8050B
+P 4400 2400
+F 0 "K3" H 4400 2633 60  0000 C CNN
+F 1 "KEYSW" H 4400 2300 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 4400 2400 60  0001 C CNN
+F 3 "" H 4400 2400 60  0000 C CNN
+	1    4400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5DD7FBA5
+P 3500 2400
+F 0 "K2" H 3500 2633 60  0000 C CNN
+F 1 "KEYSW" H 3500 2300 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3500 2400 60  0001 C CNN
+F 3 "" H 3500 2400 60  0000 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5DD7F3F0
+P 2300 2550
+F 0 "D1" V 2346 2471 50  0000 R CNN
+F 1 "D" V 2255 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 2550 50  0001 C CNN
+F 3 "~" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5DD7EF47
+P 2600 2400
+F 0 "K1" H 2600 2633 60  0000 C CNN
+F 1 "KEYSW" H 2600 2300 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 2600 2400 60  0001 C CNN
+F 3 "" H 2600 2400 60  0000 C CNN
+	1    2600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2700 3200 2700
+Wire Wire Line
+	3200 2700 4100 2700
+Connection ~ 3200 2700
+$Comp
+L Device:D D2
+U 1 1 5DD7FBAF
+P 3200 2550
+F 0 "D2" V 3246 2471 50  0000 R CNN
+F 1 "D" V 3155 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3200 2550 50  0001 C CNN
+F 3 "~" H 3200 2550 50  0001 C CNN
+	1    3200 2550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7600 4100 2    50   Input ~ 0
+row6
+Wire Wire Line
+	7400 3800 7400 3250
+Wire Wire Line
+	6500 3800 6500 3250
+Wire Wire Line
+	5600 3800 5600 3250
+Wire Wire Line
+	4700 3800 4700 3250
+Wire Wire Line
+	3800 3800 3800 3250
+Wire Wire Line
+	2900 3800 2900 3250
+Wire Wire Line
+	6800 4100 7600 4100
+Connection ~ 6800 4100
+Wire Wire Line
+	5900 4100 6800 4100
+Connection ~ 5900 4100
+Wire Wire Line
+	5000 4100 5900 4100
+Connection ~ 5000 4100
+Wire Wire Line
+	4100 4100 5000 4100
+Connection ~ 4100 4100
+$Comp
+L Device:D D12
+U 1 1 60A55079
+P 6800 3950
+F 0 "D12" V 6846 3871 50  0000 R CNN
+F 1 "D" V 6755 3871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6800 3950 50  0001 C CNN
+F 3 "~" H 6800 3950 50  0001 C CNN
+	1    6800 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 60A55083
+P 7100 3800
+F 0 "K12" H 7100 4033 60  0000 C CNN
+F 1 "KEYSW" H 7100 3700 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 7100 3800 60  0001 C CNN
+F 3 "" H 7100 3800 60  0000 C CNN
+	1    7100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 60A5508D
+P 5900 3950
+F 0 "D11" V 5946 3871 50  0000 R CNN
+F 1 "D" V 5855 3871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 3950 50  0001 C CNN
+F 3 "~" H 5900 3950 50  0001 C CNN
+	1    5900 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 60A55097
+P 6200 3800
+F 0 "K11" H 6200 4033 60  0000 C CNN
+F 1 "KEYSW" H 6200 3700 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 6200 3800 60  0001 C CNN
+F 3 "" H 6200 3800 60  0000 C CNN
+	1    6200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 60A550A1
+P 5000 3950
+F 0 "D10" V 5046 3871 50  0000 R CNN
+F 1 "D" V 4955 3871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5000 3950 50  0001 C CNN
+F 3 "~" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 60A550AB
+P 5300 3800
+F 0 "K10" H 5300 4033 60  0000 C CNN
+F 1 "KEYSW" H 5300 3700 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 5300 3800 60  0001 C CNN
+F 3 "" H 5300 3800 60  0000 C CNN
+	1    5300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 60A550B5
+P 4100 3950
+F 0 "D9" V 4146 3871 50  0000 R CNN
+F 1 "D" V 4055 3871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 3950 50  0001 C CNN
+F 3 "~" H 4100 3950 50  0001 C CNN
+	1    4100 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 60A550BF
+P 4400 3800
+F 0 "K9" H 4400 4033 60  0000 C CNN
+F 1 "KEYSW" H 4400 3700 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 4400 3800 60  0001 C CNN
+F 3 "" H 4400 3800 60  0000 C CNN
+	1    4400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 60A550C9
+P 3500 3800
+F 0 "K8" H 3500 4033 60  0000 C CNN
+F 1 "KEYSW" H 3500 3700 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 3500 3800 60  0001 C CNN
+F 3 "" H 3500 3800 60  0000 C CNN
+	1    3500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 60A550D3
+P 2300 3950
+F 0 "D7" V 2346 3871 50  0000 R CNN
+F 1 "D" V 2255 3871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 3950 50  0001 C CNN
+F 3 "~" H 2300 3950 50  0001 C CNN
+	1    2300 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 60A550DD
+P 2600 3800
+F 0 "K7" H 2600 4033 60  0000 C CNN
+F 1 "KEYSW" H 2600 3700 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 2600 3800 60  0001 C CNN
+F 3 "" H 2600 3800 60  0000 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4100 3200 4100
+Wire Wire Line
+	3200 4100 4100 4100
+Connection ~ 3200 4100
+$Comp
+L Device:D D8
+U 1 1 60A550EA
+P 3200 3950
+F 0 "D8" V 3246 3871 50  0000 R CNN
+F 1 "D" V 3155 3871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3200 3950 50  0001 C CNN
+F 3 "~" H 3200 3950 50  0001 C CNN
+	1    3200 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 60A53323
+P 1700 5050
+F 0 "J1" H 1618 4525 50  0000 C CNN
+F 1 "Conn_01x07" H 1618 4616 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53047-0710_1x07_P1.25mm_Vertical" H 1700 5050 50  0001 C CNN
+F 3 "~" H 1700 5050 50  0001 C CNN
+	1    1700 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 4750 2250 4750
+Wire Wire Line
+	1900 4850 2250 4850
+Wire Wire Line
+	1900 4950 2250 4950
+Wire Wire Line
+	1900 5150 2250 5150
+Wire Wire Line
+	1900 5250 2250 5250
+Wire Wire Line
+	1900 5350 2250 5350
+Wire Wire Line
+	1900 5050 2250 5050
+Text GLabel 7400 3250 1    50   Input ~ 0
+col5
+Text GLabel 6500 3250 1    50   Input ~ 0
+col4
+Text GLabel 5600 3250 1    50   Input ~ 0
+col3
+Text GLabel 4700 3250 1    50   Input ~ 0
+col2
+Text GLabel 3800 3250 1    50   Input ~ 0
+col1
+Text GLabel 2900 3250 1    50   Input ~ 0
+col0
+$EndSCHEMATC

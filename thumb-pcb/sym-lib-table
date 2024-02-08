@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MX_Alps_Hybrids")(type "Legacy")(uri "C:/Users/nosachevd/YandexDisk/keyboards/kicad/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrids.lib")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "Legacy")(uri "C:/Users/nosachevd/YandexDisk/keyboards/kicad/random-keyboard-parts.pretty-master/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "keyboard_parts")(type "Legacy")(uri "C:/Users/nosachevd/YandexDisk/keyboards/kicad/tmk/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "kinesis-thumb-pcb-rescue")(type "KiCad")(uri "${KIPRJMOD}/kinesis-thumb-pcb-rescue.kicad_sym")(options "")(descr ""))
+)

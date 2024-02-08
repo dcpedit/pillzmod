@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "C:/Users/nosachevd/YandexDisk/keyboards/kicad/MX_Alps_Hybrid")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "C:/Users/nosachevd/YandexDisk/keyboards/kicad/keyswitches.pretty-master")(options "")(descr ""))
+  (lib (name "misc")(type "KiCad")(uri "C:/Users/nosachevd/YandexDisk/keyboards/kicad/footprints/misc.pretty")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "C:/Users/nosachevd/YandexDisk/keyboards/kicad/logo")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "MX_Only")(type "KiCad")(uri "${KIPRJMOD}/libs/MX_Only.pretty")(options "")(descr ""))
+  (lib (name "pillz")(type "KiCad")(uri "${KIPRJMOD}/libs/pillz.pretty")(options "")(descr ""))
+)

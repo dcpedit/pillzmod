@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/libs/teensy_library/teensy.lib")(options "")(descr ""))
+  (lib (name "YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout")(type "Legacy")(uri "${KIPRJMOD}/libs/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout.lib")(options "")(descr ""))
+  (lib (name "kicad_port-rescue")(type "KiCad")(uri "${KIPRJMOD}/kicad_port-rescue.kicad_sym")(options "")(descr ""))
+)
