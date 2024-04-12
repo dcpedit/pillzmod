@@ -32,7 +32,8 @@ Once uploaded, you place the order with the selected default options.  You can o
 ### Components
 | Description | Qty | Notes |
 | ---     | --- | ----- |
-| Molex 39-53-2135 | 2 - 6  | [Link](https://octopart.com/61301011121-w%C3%BCrth+elektronik-18818159?r=sp)
+| Molex 39-53-2135 | 2 - 6  | [Link](https://octopart.com/39-53-2135-molex-7670149?r=sp)
+| Molex 39-53-2134 | 0 - 2  | Contoured only, [Link](https://octopart.com/search?q=Molex+39-53-2134)
 | Header pins (1x20) | 2 | Should come with dev board
 | Headers (1x20) | 2 | To socket your dev board
 | 1.8mm LED | 4 | [Amazon](https://a.co/d/90uynIs)
@@ -85,7 +86,7 @@ The PCB is also reversible, so you don't have to place separate orders for a "le
 | 1N4148 diode | 12 | [Amazon](https://a.co/d/gsv8bGT)
 | MX switch | 12 | Can desolder and reuse
 | 2u screw-in stabilizer | 4 | [Link](https://divinikey.com/products/durock-v2-stabilizers-screw-in)
-| Cable connector (1x10) | 2 | 2.54mm pitch
+| Cable connector (1x10) | 2 | 2.54mm pitch (eg KF2510)
 | Ribbon cable | 2 | >= 50mm length
 
 ### Instructions
