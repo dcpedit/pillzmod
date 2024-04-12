@@ -136,3 +136,5 @@ All the PCBs were designed using KiCad, which is free and can be downloaded here
 For the thumb cluster PCB, I wasn't able to figure out how to have the left and right wiring co-exist without errors while sharing the same connector footprint.  My workaround was to first change the connector's reference designator to "J1", update the PCB from schematic, and wire up the left side.  Then I changed the reference designator to "J2", updated the PCB from schematic again, and wired up the right side.
 
 If there are any KiCad experts out there that know of a more elegant solution, please let me know.
+
+The production JLCPCB files are all generated with Fabrication Toolkit: https://github.com/bennymeg/Fabrication-Toolkit
