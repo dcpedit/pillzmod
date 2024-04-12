@@ -20,7 +20,7 @@ Credit goes to the following people for doing all the initial development on rep
  * Michael Stapelberg's [KinT project](https://github.com/kinx-project/kint) ([blog](https://michael.stapelberg.ch/posts/2020-07-09-kint-kinesis-keyboard-controller/))
  * Dmitry Nosachev's [Kin80 project](https://github.com/DmNosachev/kin80)
 
-## Center PCB build guide
+## Main PCB build guide
 ### Components
 | Description | Qty | Notes |
 | ---     | --- | ----- |
@@ -35,15 +35,14 @@ Credit goes to the following people for doing all the initial development on rep
 | Description | Qty | Notes |
 | ----------- | --- | ----- |
 | Blackpill (STM32F411) | 1 | [WeAct Store](https://www.aliexpress.com/store/1101545918?spm=a2g0o.order_list.order_list_main.2.18a31802pDYB6d)
-| Headers (1x20) | 2 | Should come with dev board
 
-#### OR Pill Bug for wireless build
+#### -or- Pill Bug for wireless build
 
 | Description | Qty | Notes |
 | ----------- | --- | ----- |
 | Pill Bug | 1 | [MechWild Store](https://mechwild.com/product/pillbug/)
-| Headers (1x20) | 1 | Should come with dev board
 | 3.7V battery | 1 | [2000mAh](https://a.co/d/dVUdHxi)
+| Power button | 1 | Optional, [Amazon](https://a.co/d/i33uBM0)
 
 ### Instructions
 <img src="https://i.imgur.com/CxrAwX4.jpeg" width="350">
@@ -52,7 +51,7 @@ _NOTE: If you're using a Pill Bug with a battery that's larger than 500mAh, then
 
 All components go on the side with the silkscreen labels (rectangles) EXCEPT for the LEDs.  First solder the header pins onto your development board, and the header sockets onto the PCB.  Then solder in the LED resistors, but NOT the actual LEDs yet.  The resistors can be SMD or through hole.
 
-If you're using a battery with your Pill Bug, you can now solder the battery wires/connector to the board.  Make sure the positive wire goes into "BAT+", and the negative wire goes into "BAT-".  Insert your development board into the sockets on the PCB.
+If you're using a battery with your Pill Bug, you can now solder the battery wires/connector to the board.  Make sure the positive wire goes into "BAT+", and the negative wire goes into "BAT-".  Insert your development board into the sockets on the PCB.  If you're using a power button, make sure to wire it inline along the BAT+ wire so that it essentially opens and closes the circuit.
 
 For the connectors, I find that it's more convient to desolder the ones on the original PCB so that I don't have to purchase new ones.  Solder the connectors onto the PCB.
 
