@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/logo.jpg" width="300">
+  <img src="assets/logo.png" width="300">
 </p>
 
 # Pillz Mod for the Kinesis Advantage/Contoured
