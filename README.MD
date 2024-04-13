@@ -86,7 +86,7 @@ The PCB is also reversible, so you don't have to place separate orders for a "le
 | 1N4148 diode | 12 | [Amazon](https://a.co/d/gsv8bGT)
 | MX switch | 12 | Can desolder and reuse
 | 2u screw-in stabilizer | 4 | [Link](https://divinikey.com/products/durock-v2-stabilizers-screw-in)
-| Cable connector (1x10) | 2 | 2.54mm pitch (eg KF2510)
+| Cable connector (1x10) | 4 | 2.54mm pitch (eg KF2510)
 | Ribbon cable | 2 | >= 50mm length
 
 ### Instructions
