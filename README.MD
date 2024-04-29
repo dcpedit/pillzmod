@@ -128,7 +128,7 @@ Remap keys: https://vial.rocks/
 * `firmware/zmk_reset.uf2` - Resets PillBug board for BT connectivity issue on MacOS
 
 
-Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
+Source: https://github.com/dcpedit/pillzmod/blob/main/firmware
 
 ## KiCad
 
