@@ -125,8 +125,19 @@ Remap keys: https://vial.rocks/
 
 * `firmware/zmk_default.uf2` - Default keymap
 * `firmware/zmk_custom.uf2` - Support for up to 6 layers
-* `firmware/zmk_reset.uf2` - Resets PillBug board for BT connectivity issue on MacOS
+* `firmware/zmk_reset.uf2` - Resets PillBug board for BT connectivity issue on MacOS      
 
+### Bluetoobh with ZMK
+
+The ZMK firmware has mappings for performing system tasks. By default there are 4 Bluetooth pairings saved to the keyboard but they do not switch automatically when adding new devices. So after you add the first device, you need to tell they keyboard to use Bluetooth slot 2 and so forth.
+The keys to switch between are accessed by a different keyboard layer. This layer is opened by holding down the "Program" key at the very top right of the Kinesis and, while holding it, then clicking another key as follows:
+
+* **Clear all saved Bluetooth profiles:** Program + F9
+* **Bluetooth profile 1:** Program + F1
+* **Bluetooth profile 2:** Program + F2
+* **Bluetooth profile 3:** Program + F3
+* **Bluetooth profile 4:** Program + F4
+* **Enter bootloader mode (to upload UF2 files):** Program + - (the dash key just below program)
 
 Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
 
