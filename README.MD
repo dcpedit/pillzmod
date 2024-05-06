@@ -113,7 +113,7 @@ Mount the thumb clusters onto the keyboard and connect the ribbon cables.
 
 ## Vial firmware for Blackpill
 
-* `firmware/dcpedit_kint_bp_vial.bin`
+* `firmware/dcpedit_kint_bp_vial_6layers.bin`
 
 Source: https://github.com/dcpedit/vial-qmk/tree/vial/keyboards/dcpedit/kint_bp
 
