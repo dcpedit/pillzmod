@@ -139,7 +139,7 @@ The keys to switch between are accessed by a different keyboard layer. This laye
 * **Bluetooth profile 4:** Program + F4
 * **Enter bootloader mode (to upload UF2 files):** Program + - (the dash key just below program)
 
-Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
+Source: https://github.com/dcpedit/pillzmod/blob/main/firmware
 
 ## KiCad
 
