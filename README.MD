@@ -158,6 +158,10 @@ The keys to switch between are accessed by a different keyboard layer. This laye
 
 Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
 
+If you want to do a ZMK firmware build using GitHub actions, take a look at the following repository from keepitsimplejim:
+
+https://github.com/keepitsimplejim/zmk-config-pillzmod-kinesis-adv
+
 ## KiCad
 
 All the PCBs were designed using KiCad, which is free and can be downloaded here: https://www.kicad.org/
