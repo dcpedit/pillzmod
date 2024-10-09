@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nice_nano")(type "Legacy")(uri "${KIPRJMOD}/libraries/nice-nano-kicad/nice_nano.lib")(options "")(descr ""))
+)

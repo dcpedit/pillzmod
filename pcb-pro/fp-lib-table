@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kinesisMod_board_connectors")(type "KiCad")(uri "${KIPRJMOD}/kinesisMod_board_connectors.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/libs/Kicad-STM32/Footprints")(options "")(descr ""))
+  (lib (name "pillz")(type "KiCad")(uri "${KIPRJMOD}/libs/pillz.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/libs/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "nice-nano-kicad")(type "KiCad")(uri "${KIPRJMOD}/libs/nice-nano-kicad")(options "")(descr ""))
+)

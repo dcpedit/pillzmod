@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/libs/keebio-components/keebio.lib")(options "")(descr ""))
+)
