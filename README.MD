@@ -115,7 +115,7 @@ Mount the thumb clusters onto the keyboard and connect the ribbon cables.
 
 * `firmware/dcpedit_kint_bp_vial_6layers.bin`
 
-Source: https://github.com/dcpedit/vial-qmk/tree/vial/keyboards/dcpedit/kint_bp
+Source: https://github.com/dcpedit/vial-qmk/tree/pillzmod/keyboards/dcpedit/pillzmod
 
 ### Flashing firmware under Linux
 The file firmware/dcpedit_kint_bp_vial_6layers.bin (or other) can simply be flashed to the Blackpill using the dfu-util. The dfu-util tool requires root privileges if settings are not accessible by the user.
