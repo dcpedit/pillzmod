@@ -122,11 +122,15 @@ The J9 pins are for foot pedals and have the following assignment:
 
 Diodes D6-D8 are connected to the rows, so no additional diodes are needed in the pedals/switches.
 
+<img src="https://i.imgur.com/vDt3BZc.jpeg" width="350">
+
 ### "Pro" Nice!Nano Additional Instructions
 
 Mill-Max 310 sockets are recommended for socketing the Nice!Nano because thin pins are required for connecting the extra 3 pins in the middle.
 
 The Nice!Nano is one pin short of supporting all 4 status lights on the Advantage.  If you want to utilize the unused numpad status LED as a power indicator, go ahead and short JP1 with some solder.
+
+<img src="https://i.imgur.com/5jWpRJg.jpeg" width="350">
 
 ## Thumb cluster PCB build guide
 
@@ -166,13 +170,24 @@ Mount the thumb clusters onto the keyboard and connect the ribbon cables.
 <img src="https://i.imgur.com/2i21le3.jpeg" width="350">
 
 
+## QMK firmware for "Pro"
+
+* `firmware/pro_qmk_avr_default.bin`
+* `firmware/pro_qmk_rp2040_default.uf2`
+
+QMK source: https://github.com/dcpedit/qmk_firmware/tree/pillzmod/keyboards/dcpedit/pillzmod
+
 ## Vial firmware for Blackpill
 
 * `firmware/dcpedit_kint_bp_vial_6layers.bin`
 
-Source: https://github.com/dcpedit/vial-qmk/tree/vial/keyboards/dcpedit/kint_bp
+Blackpill source: https://github.com/dcpedit/vial-qmk/tree/vial/keyboards/dcpedit/kint_bp
 
 Remap keys: https://vial.rocks/
+
+## Vial firmware for "Pro"
+
+Coming soon
 
 ## ZMK firmware for Pill Bug
 
@@ -181,6 +196,14 @@ Remap keys: https://vial.rocks/
 * `firmware/zmk_default.uf2` - Default keymap
 * `firmware/zmk_custom.uf2` - Support for up to 6 layers
 * `firmware/zmk_reset.uf2` - Resets PillBug board for BT connectivity issue on MacOS      
+
+Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
+
+## ZMK firmware for "Pro" Nice!Nano
+
+* `firmware/pro_zmk.uf2` - Default keymap
+
+Source: https://github.com/dcpedit/zmk/tree/pillzmod/app/boards/shields/pillzmod_pro
 
 ### Bluetoobh with ZMK
 
@@ -194,7 +217,6 @@ The keys to switch between are accessed by a different keyboard layer. This laye
 * **Bluetooth profile 4:** Program + F4
 * **Enter bootloader mode (to upload UF2 files):** Program + - (the dash key just below program)
 
-Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
 
 ## KiCad
 
