@@ -215,13 +215,7 @@ Coming soon
 
 Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
 
-## ZMK firmware for "Pro" Nice!Nano
-
-* `firmware/pro_zmk.uf2` - Default keymap
-
-Source: https://github.com/dcpedit/zmk/tree/pillzmod/app/boards/shields/pillzmod_pro
-
-### Bluetoobh with ZMK
+### Bluetooth with ZMK
 
 The ZMK firmware has mappings for performing system tasks. By default there are 4 Bluetooth pairings saved to the keyboard but they do not switch automatically when adding new devices. So after you add the first device, you need to tell they keyboard to use Bluetooth slot 2 and so forth.
 The keys to switch between are accessed by a different keyboard layer. This layer is opened by holding down the "Program" key at the very top right of the Kinesis and, while holding it, then clicking another key as follows:
@@ -233,11 +227,15 @@ The keys to switch between are accessed by a different keyboard layer. This laye
 * **Bluetooth profile 4:** Program + F4
 * **Enter bootloader mode (to upload UF2 files):** Program + - (the dash key just below program)
 
-Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
-
 If you want to do a ZMK firmware build using GitHub actions, take a look at the following repository from keepitsimplejim:
 
 https://github.com/keepitsimplejim/zmk-config-pillzmod-kinesis-adv
+
+## ZMK firmware for "Pro" Nice!Nano
+
+* `firmware/pro_zmk.uf2` - Default keymap
+
+Source: https://github.com/dcpedit/zmk/tree/pillzmod/app/boards/shields/pillzmod_pro
 
 ## KiCad
 
