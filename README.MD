@@ -181,6 +181,24 @@ QMK source: https://github.com/dcpedit/qmk_firmware/tree/pillzmod/keyboards/dcpe
 
 * `firmware/dcpedit_kint_bp_vial_6layers.bin`
 
+Source: https://github.com/dcpedit/vial-qmk/tree/pillzmod/keyboards/dcpedit/pillzmod
+
+### Flashing firmware under Linux
+The file firmware/dcpedit_kint_bp_vial_6layers.bin (or other) can simply be flashed to the Blackpill using the dfu-util. The dfu-util tool requires root privileges if settings are not accessible by the user.
+
+Connect Blackpill to your Linux PC via USB C cable and start unit in DFU mode by holding bootp button and pressing reset button. Wait a second and release the bootp button.
+
+Check the DFU devices by running
+```
+dfu-util -l
+```
+The Blackpill device should be visible.
+
+Write the firmware to the device with
+```
+dfu-util -d 0483:df11 -a 0 -s 0x08000000 -D [PATH TO kint]/firmware/dcpedit_kint_bp_vial_6layers.bin
+```
+
 Blackpill source: https://github.com/dcpedit/vial-qmk/tree/vial/keyboards/dcpedit/kint_bp
 
 Remap keys: https://vial.rocks/
@@ -217,6 +235,11 @@ The keys to switch between are accessed by a different keyboard layer. This laye
 * **Bluetooth profile 4:** Program + F4
 * **Enter bootloader mode (to upload UF2 files):** Program + - (the dash key just below program)
 
+Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
+
+If you want to do a ZMK firmware build using GitHub actions, take a look at the following repository from keepitsimplejim:
+
+https://github.com/keepitsimplejim/zmk-config-pillzmod-kinesis-adv
 
 ## KiCad
 
