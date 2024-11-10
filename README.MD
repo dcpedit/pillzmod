@@ -16,7 +16,13 @@ This project replaces my two previous forks ([kinesismod](https://github.com/dcp
 * 2u stabilizer support on thumb cluster
 
 ## "Pro" PCB Features
+
 * Supports devlopment board with Pro-Micro footprint (Elite-C, Elite-Pi, Nice!Nano)
+* Header for connecting up to 3 foot-pedals
+* Piezo audio buzzer
+* Header for extra data pin (Elite-C only)
+
+## Attribution
 
 Credit goes to the following people for doing all the initial development on replacment PCBs for the Kinesis:
  * Aaron Silman's [kinesismod project](https://gitlab.com/Silman/kinesismod.git) ([blog](https://silman.io/project/kinesis_mod/))
