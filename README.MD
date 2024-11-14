@@ -220,7 +220,7 @@ Coming soon
 * `firmware/zmk_reset.uf2` - Resets PillBug board for BT connectivity issue on MacOS      
 * `firmware/zmk_studio.uf2` - Studio compatible (Progrm + Esc to unlock)
 
-Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
+Source: https://github.com/dcpedit/zmk/tree/pillzmod/app/boards/shields/pillzmod
 
 ### Bluetooth with ZMK
 
