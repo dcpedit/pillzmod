@@ -218,6 +218,7 @@ Coming soon
 * `firmware/zmk_default.uf2` - Default keymap
 * `firmware/zmk_custom.uf2` - Support for up to 6 layers
 * `firmware/zmk_reset.uf2` - Resets PillBug board for BT connectivity issue on MacOS      
+* `firmware/zmk_studio.uf2` - Studio compatible
 
 Source: https://github.com/dcpedit/zmk/tree/kinesispb/app/boards/shields/kinesispb
 
