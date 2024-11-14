@@ -240,8 +240,10 @@ https://github.com/keepitsimplejim/zmk-config-pillzmod-kinesis-adv
 ## ZMK firmware for "Pro" Nice!Nano
 
 * `firmware/pro_zmk.uf2` - Default keymap
+* `firmware/pro_zmk_studio.uf2` - Studio compatible (Progrm + Esc to unlock)
 
 Source: https://github.com/dcpedit/zmk/tree/pillzmod/app/boards/shields/pillzmod_pro
+Studio: https://zmk.studio/
 
 ## KiCad
 
