@@ -32,7 +32,7 @@ Credit goes to the following people for doing all the initial development on rep
 ## Ordering PCBs from JLCPCB
 
 The files needed for https://jlcpcb.com are located in the production folders:
-* `pcb/production`
+* Choose `pcb-pro/production` or `pcb/production` 
 * `thumb-pcb/production`
 
 Once uploaded, you place the order with the selected default options.  You can optionally change the solder mask color, which changes the final color of your PCB.
