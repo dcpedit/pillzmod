@@ -185,6 +185,7 @@ QMK source: https://github.com/dcpedit/qmk_firmware/tree/pillzmod/keyboards/dcpe
 
 ## Vial firmware for Blackpill
 
+* `firmware/blackpill_vial.bin`
 * `firmware/dcpedit_kint_bp_vial_6layers.bin`
 
 Source: https://github.com/dcpedit/vial-qmk/tree/pillzmod/keyboards/dcpedit/pillzmod
@@ -209,7 +210,10 @@ dfu-util -d 0483:df11 -a 0 -s 0x08000000 -D [PATH TO kint]/firmware/dcpedit_kint
 
 ## Vial firmware for "Pro"
 
-Coming soon
+* `firmware/pro_vial_avr.hex`
+
+Source: https://github.com/dcpedit/vial-qmk/tree/pillzmod/keyboards/dcpedit/pillzmod
+(You will need to clone the entire branch since I had to make a core code change in `spi_master.c`)
 
 ## ZMK firmware for Pill Bug
 
