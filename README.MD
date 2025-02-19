@@ -72,7 +72,7 @@ Once uploaded, you place the order with the selected default options.  You can o
 | U2       | 16-pin IC socket | 1 | [Amazon](https://a.co/d/5EaFAHo)
 | D6-D8    | 1n4148 Diode | 3 | [Link](https://www.mouser.com/ProductDetail/512-1N4148TR)
 | BZ1      | Piezo Buzzer | 1 | [Link](https://www.digikey.com/en/products/detail/tdk-corporation/PS1240P02BT/935924)
-| SW1      | Reset button | 1 | [Link](https://www.mouser.com/ProductDetail/642-MJTP1230A)
+| SW1      | Reset button | 1 | [Link](https://www2.mouser.com/ProductDetail/Alps-Alpine/SKQGAEE010?qs=N5Jky1br14PyTRvcw7F3eQ%3D%3D)
 | R5-R19   | 10k Resistor | 15| AVR/Elite-C Only [Link](https://www.mouser.com/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D), [Link](https://mou.sr/3xgqcNf)
 
 
